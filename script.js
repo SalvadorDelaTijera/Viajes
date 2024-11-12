@@ -6,6 +6,7 @@ let elements = document.querySelectorAll('a');
 let tituloElemento = document.getElementById('titulo');
 let subTituloElemento = document.getElementById('subtitulo');
 let parrafoElemento = document.getElementById('parrafo');
+let precioElemento = document.getElementById('precio');
 
 //Agregar eventos CLICK a cada elemento
 elements.forEach(function(enlace){
@@ -24,6 +25,7 @@ elements.forEach(function(enlace){
   tituloElemento.innerHTML = contenido.titulo;
   subTituloElemento.innerHTML = contenido.subtitulo;
   parrafoElemento.innerHTML = contenido.parrafo;
+  precioElemento.innerHTML = contenido.precio;
   });
 });
   //FUNCION PARA TRAER LA INFO DESDE ciudades.js
